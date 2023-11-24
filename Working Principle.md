@@ -1,4 +1,6 @@
-# Autonomous_Control_of_Vehicle_Movement_Detection_in_Railway_Gate
+# Autonomous Control of Vehicle Movement Detection in Railway Gate
+
+# Working:-
 
 First of all, we need to place the components correct position for the perfect work of this system. Two IR sensors are placed on both sides of level crossings and the distance between the two IR sensors is dependent on the length of the train. Four Servo motors are placed on both sides of the railway track.
 
