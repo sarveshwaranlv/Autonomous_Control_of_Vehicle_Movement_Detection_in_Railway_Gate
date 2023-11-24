@@ -320,7 +320,7 @@ void loop()
    
    {
    
-    tone(BUZZ, 500);delay(500);noTone(BUZZ);
+  tone(BUZZ, 500);delay(500);noTone(BUZZ);
     
    digitalWrite(RED, HIGH);
    
