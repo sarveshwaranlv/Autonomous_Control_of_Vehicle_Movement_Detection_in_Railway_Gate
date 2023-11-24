@@ -1,50 +1,50 @@
 # Autonomous_Control_of_Vehicle_Movement_Detection_in_Railway_Gate
 
-#include <Servo.h>
+  #include <Servo.h>
 
-#define IR01 2
+  #define IR01 2
 
-#define IR02 3
+  #define IR02 3
 
-#define US01T 5
+  #define US01T 5
 
-#define US01E 6
+  #define US01E 6
 
-#define US02T 7
+  #define US02T 7
 
-#define US02E 8
+  #define US02E 8
 
-#define US03T 9
+  #define US03T 9
 
-#define US03E 10
+  #define US03E 10
 
-#define US04T 11
+  #define US04T 11
 
-#define US04E 12
+  #define US04E 12
 
-#define RED A4
+  #define RED A4
 
-#define GREEN A5
+  #define GREEN A5
 
-#define BUZZ 13
+  #define BUZZ 13
 
-Servo SM01;
+  Servo SM01;
 
-Servo SM02;
+  Servo SM02;
 
-Servo SM03;
+  Servo SM03;
 
-Servo SM04;
+  Servo SM04;
 
-int OPEN = 90;
+  int OPEN = 90;
 
-int CLOSE1 = 0;
+  int CLOSE1 = 0;
 
-int CLOSE2 = 180;
+  int CLOSE2 = 180;
 
-long TIME01, DIST01, TIME02, DIST02, TIME03, DIST03, TIME04, DIST04;
+  long TIME01, DIST01, TIME02, DIST02, TIME03, DIST03, TIME04, DIST04;
 
-int motionDetected = 0;
+  int motionDetected = 0;
 
 void setup() 
 
